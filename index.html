@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="glide.core.min.css">
+</head>
+<body onload="weatherCall()">
+
+  <div class="currentDay-container">
+     <div class="currentDay__numbers">
+       <h1 id="currentTemp">Il tuo Meteo</h1>
+       <p id="currentCity"></p>
+     </div>
+     <img id="currentIcon" src="sun.png" alt="">
+  </div>
+
+  <div class="hours-container">
+
+    <!-- template glide -->
+    <div class="glide">
+     <div class="glide__track" data-glide-el="track">
+       <div class="glide__slides">
+         <section class="temperature-group-container glide__slide">
+          <div class="tempoContainer">
+            <h3 class="hourTemperature"></h3>
+            <img class="hourIcon" src="cloud.png" alt="">
+            <p class="hourDataTime"></p>
+          </div>
+          <div class="tempoContainer">
+            <h3 class="hourTemperature"></h3>
+            <img class="hourIcon" src="cloud.png" alt="">
+            <p class="hourDataTime"></p>
+          </div>
+          <div class="tempoContainer">
+            <h3 class="hourTemperature"></h3>
+            <img class="hourIcon" src="cloud.png" alt="">
+            <p class="hourDataTime"></p>
+          </div>
+          <div class="tempoContainer">
+            <h3 class="hourTemperature"></h3>
+            <img class="hourIcon" src="cloud.png" alt="">
+            <p class="hourDataTime"></p>
+          </div>
+          <div class="tempoContainer">
+            <h3 class="hourTemperature"></h3>
+            <img class="hourIcon" src="cloud.png" alt="">
+            <p class="hourDataTime"></p>
+          </div>
+        </section>
+        <section class="temperature-group-container glide__slide">
+         <div class="tempoContainer">
+           <h3 class="hourTemperature"></h3>
+           <img class="hourIcon" src="cloud.png" alt="">
+           <p class="hourDataTime"></p>
+         </div>
+         <div class="tempoContainer">
+           <h3 class="hourTemperature"></h3>
+           <img class="hourIcon" src="cloud.png" alt="">
+           <p class="hourDataTime"></p>
+         </div>
+         <div class="tempoContainer">
+           <h3 class="hourTemperature"></h3>
+           <img class="hourIcon" src="cloud.png" alt="">
+           <p class="hourDataTime"></p>
+         </div>
+         <div class="tempoContainer">
+           <h3 class="hourTemperature"></h3>
+           <img class="hourIcon" src="cloud.png" alt="">
+           <p class="hourDataTime"></p>
+         </div>
+         <div class="tempoContainer">
+           <h3 class="hourTemperature"></h3>
+           <img class="hourIcon" src="cloud.png" alt="">
+           <p class="hourDataTime"></p>
+         </div>
+       </section>
+       <section class="temperature-group-container glide__slide">
+        <div class="tempoContainer">
+          <h3 class="hourTemperature"></h3>
+          <img class="hourIcon" src="cloud.png" alt="">
+          <p class="hourDataTime"></p>
+        </div>
+        <div class="tempoContainer">
+          <h3 class="hourTemperature"></h3>
+          <img class="hourIcon" src="cloud.png" alt="">
+          <p class="hourDataTime"></p>
+        </div>
+        <div class="tempoContainer">
+          <h3 class="hourTemperature"></h3>
+          <img class="hourIcon" src="cloud.png" alt="">
+          <p class="hourDataTime"></p>
+        </div>
+        <div class="tempoContainer">
+          <h3 class="hourTemperature"></h3>
+          <img class="hourIcon" src="cloud.png" alt="">
+          <p class="hourDataTime"></p>
+        </div>
+        <div class="tempoContainer">
+          <h3 class="hourTemperature"></h3>
+          <img class="hourIcon" src="cloud.png" alt="">
+          <p class="hourDataTime"></p>
+        </div>
+      </section>
+     </div>
+     </div>
+     <div class="glide__bullets" data-glide-el="controls[nav]">
+       <!-- <button class="glide__bullet" data-glide-dir="=0"></button>
+       <button class="glide__bullet" data-glide-dir="=1"></button>
+       <button class="glide__bullet" data-glide-dir="=2"></button> -->
+       <img id="bullet1" src="circle.png" alt="" data-glide-dir="=0">
+       <img id="bullet2" src="circle.png" alt="" data-glide-dir="=1">
+       <img id="bullet3" src="circle.png" alt="" data-glide-dir="=2">
+     </div>
+   </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+<script src="app.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+</body>
+</html>
