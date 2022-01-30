@@ -1,5 +1,5 @@
 # Weather widget
-live link:  https://sebastianhornoi.github.io/Meal-App/
+live link:   https://sebastianhornoi.github.io/javascript-weather-widget/
 ### Obiettivo proggetto: 
 Realizzare un widget che mostri il tempo per i prossimo 5 giorni + uno slider con le prossime 5 ore
 
